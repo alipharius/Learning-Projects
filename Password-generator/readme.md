@@ -22,12 +22,16 @@ python password_generator.py -l 12 --count 3 --no-symbols
 ## Flags
 
 Flag	Description:
--l, --length	Length of the password (default: 10)
--c, --count	Number of passwords (default: 1)
--s, --symbols	Include symbols
---no-symbols	Exclude symbols
--u, --uppercase	Include uppercase letters
---no-uppercase	Exclude uppercase letters
+
+| Flag            | Description                         |
+|-----------------|-------------------------------------|
+| `-l, --length`  | Length of the password (default: 10)|
+| `-c, --count`   | Number of passwords (default: 1)    |
+| `-s, --symbols` | Include symbols                     |
+| `--no-symbols`  | Exclude symbols                     |
+| `-u, --uppercase` | Include uppercase letters         |
+| `--no-uppercase` | Exclude uppercase letters          |
+
 
 ## Testing
 This project includes unit tests to ensure that all functions behave correctly.
@@ -45,11 +49,13 @@ From the root of the project folder, run:
 You should see output like:
 
 ============================= test session starts =============================
+
 collected 7 items
 
 tests/test_password_generator.py .......                                 [100%]
 
 ============================== 7 passed in 0.05s ==============================
+
 What’s Tested:
 - contains_upper() function
 
