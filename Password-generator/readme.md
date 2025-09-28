@@ -19,7 +19,7 @@ python password_generator.py -l 16 -s -u
 # Generate 3 passwords of length 12 without symbols
 python password_generator.py -l 12 --count 3 --no-symbols
 ```
-Flags
+## Flags
 
 Flag	Description:
 -l, --length	Length of the password (default: 10)
@@ -29,7 +29,7 @@ Flag	Description:
 -u, --uppercase	Include uppercase letters
 --no-uppercase	Exclude uppercase letters
 
-Testing
+## Testing
 This project includes unit tests to ensure that all functions behave correctly.
 
 Install pytest
