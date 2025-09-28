@@ -39,7 +39,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(
-        description="🔑 Generate secure passwords with Python's secrets module"
+        description="Generate secure passwords with Python's secrets module"
     )
 
     parser.add_argument(
@@ -56,7 +56,7 @@ if __name__ == "__main__":
         help="Number of passwords to generate (default: 1)"
     )
 
-    # Mutually exclusive groups
+    
     symbols_group = parser.add_mutually_exclusive_group()
     symbols_group.add_argument(
         "-s", "--symbols",
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    # Logic: if neither --symbols nor --no-symbols is given → default False
+    
     use_symbols = args.symbols and not args.no_symbols
     use_uppercase = args.uppercase and not args.no_uppercase
 
@@ -95,3 +95,4 @@ if __name__ == "__main__":
         )
         specs = f"Uppercase: {contains_upper(new_pass)} , Symbols: {contains_symbols(new_pass)}"
         print(f"{i+1} -> \"{new_pass}\" ({specs})")
+
