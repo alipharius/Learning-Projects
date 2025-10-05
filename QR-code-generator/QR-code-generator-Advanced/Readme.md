@@ -22,7 +22,7 @@ pip install qrcode pillow PyQt6 argparse
 ###Command-Line Mode
 Generate QR codes quickly from the terminal:
 
-bash
+```
 # Generate QR code with text input
 python qr_generator.py --text "Hello World" --file output.png
 
@@ -31,34 +31,36 @@ python qr_generator.py -t "https://github.com" -f github_qr.png
 
 # Customize appearance
 python qr_generator.py -t "Custom QR" -f custom.png --fg blue --bg yellow --size 12 --edge 2
+```
 Command-line options:
 
-` -t, --text: Text or URL to encode (optional - GUI launches if omitted)
+- -t, --text: Text or URL to encode (optional - GUI launches if omitted)
 
-` -f, --file: Output filename (default: qrcode.png)
+- -f, --file: Output filename (default: qrcode.png)
 
-` --fg: Foreground color (default: black)
+- --fg: Foreground color (default: black)
 
-` --bg: Background color (default: white)
+- --bg: Background color (default: white)
 
-` -s, --size: Box size/scale (default: 10)
+- -s, --size: Box size/scale (default: 10)
 
-` -e, --edge: Border thickness (default: 3)
+- -e, --edge: Border thickness (default: 3)
 
-GUI Mode
+### GUI Mode
 Run without arguments to launch the graphical interface:
 
-bash
+```
 python qr_generator.py
+```
 The GUI provides:
 
-Live preview that updates as you type
+- Live preview that updates as you type
 
-Color pickers for foreground and background colors
+- Color pickers for foreground and background colors
 
-Adjustable settings for box size and border
+- Adjustable settings for box size and border
 
-Save functionality with file dialog
+- Save functionality with file dialog
 
 How It Works
 CLI Mode: When you provide --text argument, the script generates the QR code and exits
