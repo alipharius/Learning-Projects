@@ -32,7 +32,6 @@ python myqr.py -f my_qr.png
 ```
 2. Command-line mode:
 
-```
 # Generate QR from URL
 python myqr.py -t "https://github.com" -f github.png
 
@@ -50,31 +49,3 @@ text
 -s, --size SIZE    Box size/scale (default: 10)
 -e, --edge EDGE    Border thickness (default: 1)
 -h, --help         Show help message
-```
-## Advanced Usage
-As a Python Module
-You can also use the QR generator in your own Python code:
-
-python
-from myqr import MyQR
-
-# Create generator instance
-qr_gen = MyQR(size=10, edge=1)
-
-# Generate QR code
-qr_gen.create_qr_code(
-    file_name="output.png",
-    fg="black", 
-    bg="white",
-    data="Your text here"
-)
-Programmatic Usage
-python
-import myqr
-
-# Direct function call
-myqr.main()  # This uses argparse internally
-
-# Or create custom workflow
-qr = MyQR(size=15, edge=2)
-qr.create_qr_code("custom.png", "red", "yellow", "Custom QR Code")
