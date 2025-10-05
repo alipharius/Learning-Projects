@@ -40,8 +40,10 @@ python myqr.py -t "Hello World" -f hello.png --fg blue --bg white -s 8 -e 2
 
 # Using hex colors
 python myqr.py -t "Custom Colors" -f custom.png --fg "#FF5733" --bg "#1E90FF"
-Full Command-line Options
-text
+
+## Full Command-line Options
+text:
+```
 -t, --text TEXT    Text or URL to encode (optional - will prompt if omitted)
 -f, --file FILE    Output filename (default: sample.png)
 --fg COLOR         Foreground color (default: black)
@@ -49,3 +51,4 @@ text
 -s, --size SIZE    Box size/scale (default: 10)
 -e, --edge EDGE    Border thickness (default: 1)
 -h, --help         Show help message
+```
