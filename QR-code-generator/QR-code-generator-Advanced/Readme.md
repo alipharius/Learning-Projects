@@ -1,24 +1,25 @@
-QR Code Generator
+# QR Code Generator
 A Python QR code generator with both command-line interface and graphical user interface with live preview. This tool allows you to create customizable QR codes for text, URLs, or any other data.
 
-Features
-Dual Interface: Command-line for quick generation and GUI for interactive use
+## Features
+- Dual Interface: Command-line for quick generation and GUI for interactive use
 
-Live Preview: See your QR code update in real-time as you type
+- Live Preview: See your QR code update in real-time as you type
 
-Customizable: Adjust colors, size, and border of your QR codes
+- Customizable: Adjust colors, size, and border of your QR codes
 
-User-Friendly: Simple interface with color pickers and instant feedback
+- User-Friendly: Simple interface with color pickers and instant feedback
 
-Installation
+## Installation
 Make sure you have Python 3.7+ installed
 
 Install the required dependencies:
 
-bash
-pip install qrcode pillow
-Usage
-Command-Line Mode
+```
+pip install qrcode pillow PyQt6 argparse
+```
+## Usage
+###Command-Line Mode
 Generate QR codes quickly from the terminal:
 
 bash
@@ -32,17 +33,17 @@ python qr_generator.py -t "https://github.com" -f github_qr.png
 python qr_generator.py -t "Custom QR" -f custom.png --fg blue --bg yellow --size 12 --edge 2
 Command-line options:
 
--t, --text: Text or URL to encode (optional - GUI launches if omitted)
+` -t, --text: Text or URL to encode (optional - GUI launches if omitted)
 
--f, --file: Output filename (default: qrcode.png)
+` -f, --file: Output filename (default: qrcode.png)
 
---fg: Foreground color (default: black)
+` --fg: Foreground color (default: black)
 
---bg: Background color (default: white)
+` --bg: Background color (default: white)
 
--s, --size: Box size/scale (default: 10)
+` -s, --size: Box size/scale (default: 10)
 
--e, --edge: Border thickness (default: 3)
+` -e, --edge: Border thickness (default: 3)
 
 GUI Mode
 Run without arguments to launch the graphical interface:
