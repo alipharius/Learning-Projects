@@ -17,15 +17,9 @@ pip install my-qr-generator
 ```
 ### Option 2: Install from source
 
-# Clone the repository
-git clone https://github.com/yourusername/qr-code-generator.git
-cd qr-code-generator
 
 # Install dependencies
-pip install -r requirements.txt
-
-# Install the package
-pip install -e .
+pip install -r qrcode argparse pillow
 
 ## Requirements
 
