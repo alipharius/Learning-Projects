@@ -62,30 +62,31 @@ The GUI provides:
 
 - Save functionality with file dialog
 
-How It Works
-CLI Mode: When you provide --text argument, the script generates the QR code and exits
+### How It Works
+- CLI Mode: When you provide --text argument, the script generates the QR code and exits
 
-GUI Mode: When no text argument is provided, the graphical interface opens for interactive QR code creation
+- GUI Mode: When no text argument is provided, the graphical interface opens for interactive QR code creation
 
-Live Preview: The GUI updates the QR code preview in real-time with debouncing to prevent excessive regeneration
+- Live Preview: The GUI updates the QR code preview in real-time with debouncing to prevent excessive regeneration
 
-Technical Details
-Built with Python's qrcode library for QR generation
+### Technical Details
+- Built with Python's qrcode library for QR generation
 
-Uses tkinter for the graphical interface
+- Uses tkinter for the graphical interface
 
-PIL (Pillow) for image processing and display
+- PIL (Pillow) for image processing and display
 
-Real-time preview updates with 250ms debouncing
+- Real-time preview updates with 250ms debouncing
 
-Supports both color names and hex codes
+- Supports both color names and hex codes
 
-Example
-bash
+### Example
+```
 # Quick generation
 python qr_generator.py -t "Visit our website!" -f website_qr.png
 
 # Interactive creation (launches GUI)
 python qr_generator.py
-Learning Note
-The PyQt6 GUI version of this project was AI-assisted as part of my learning journey in GUI development. This helped me understand modern UI patterns, event handling, and creating professional desktop applications.
+```
+### Learning Note
+The PyQt6 GUI version of this project was `AI-assisted` as part of my learning journey in GUI development. This helped me understand modern UI patterns, event handling, and creating professional desktop applications.
