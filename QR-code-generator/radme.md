@@ -9,17 +9,6 @@ A simple and flexible Python QR code generator with both command-line and intera
 - **Flexible Input**: Support for text, URLs, and any encodable data
 - **Easy to Use**: Simple CLI interface with sensible defaults
 
-##  Installation
-
-### Option 1: Install from PyPI (when published)
-```
-pip install my-qr-generator
-```
-### Option 2: Install from source
-
-
-# Install dependencies
-pip install -r qrcode argparse pillow
 
 ## Requirements
 
@@ -32,7 +21,7 @@ pip install -r qrcode argparse pillow
 - Install all dependencies with:
 
 ```
-pip install qrcode[pil]
+pip install qrcode pillow argparse
 ```
 ## Usage
 Basic Examples
