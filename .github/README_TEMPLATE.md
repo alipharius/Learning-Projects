@@ -37,3 +37,12 @@ cd mini-projects/project-name
 # Run the script
 python main.py
 ```
+## Notes / Future Improvements
+
+- Thing I might add later
+
+- Lessons learned
+
+- Bugs I might fix
+
+- Notes worth considering( like If it is Ai-assisted )
