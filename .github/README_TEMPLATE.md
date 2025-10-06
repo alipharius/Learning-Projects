@@ -19,7 +19,7 @@ Example:
 
 ---
 
-## 🧠 Concepts / Skills Practiced
+## Concepts / Skills Practiced
 - Python basics / Data analysis / OOP / etc.
 - File handling / APIs / Regex / etc.
 
