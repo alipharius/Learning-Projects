@@ -20,7 +20,7 @@ _Following along with courses and Books and tutorials_
 
 - [Password Generator](password-generator/) - Create secure passwords
 - [QR Code Generator](qr-code-generator/) - Generate QR codes from text/URLs
-- [Website Checker](website-checker/) - Monitor site availability
+- [Website Checker](Website-checker/) - Monitor site availability
 - [File Sorter](file-sorter/) - Organize files by type
 
 ## 🚀 Enhanced Projects  
