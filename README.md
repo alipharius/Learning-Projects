@@ -16,7 +16,7 @@ My personal coding playground where I experiment, learn, and build small things.
 ---
 
 ## 📚 Tutorial Projects
-_Following along with courses and tutorials_
+_Following along with courses and Books and tutorials_
 
 - [Password Generator](password-generator/) - Create secure passwords
 - [QR Code Generator](qr-code-generator/) - Generate QR codes from text/URLs
