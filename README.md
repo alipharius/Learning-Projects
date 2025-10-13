@@ -15,31 +15,6 @@ My personal coding playground where I experiment, learn, and build small things.
 
 ---
 
-## 📚 Tutorial Projects
-_Following along with courses and Books and tutorials_
-
-- [Password Generator](password-generator/) - Create secure passwords
-- [QR Code Generator](qr-code-generator/) - Generate QR codes from text/URLs
-- [Website Checker](Website-checker/) - Monitor site availability
-- [File Sorter](file-sorter/) - Organize files by type
-
-## 🚀 Enhanced Projects  
-_Improved versions with extra features or personal twists_
-
-- [Psychology Sentiment Analysis](psychology-sentiment-analysis/) - NLP analysis of psychological text
-- [Habit Tracker Enhanced](habit-tracker-enhanced/) - CLI tracker with data export & visualization
-
-## 💡 Original Ideas
-_Small projects from personal experiments_
-
-- [Study Planner](study-planner/) - Personal academic scheduling tool
-- [Mood Tracker](mood-tracker/) - Simple mental health tracking
-
-## 🔄 Recently Added
-- [Project Name](project-folder/) - Just finished!
-
----
-
 ## 🛠️ Technologies & Concepts
 
 **Languages & Tools**
