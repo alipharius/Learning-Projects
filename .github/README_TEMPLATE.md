@@ -1,45 +1,42 @@
-# URL shortener
+# [Project Name] 
 
-> A simple Python script that shortens long URLs using the Cutt.ly API.
+> [Brief description of what it does]
 
-## What This Does
-This script takes a long URL from the user, automatically adds `https://` if missing, and returns a shortened link using the Cutt.ly URL shortening service.
+## What This Does 
+[Simple explanation in 1-2 sentences]
 
 ## Why I Built This
-- To learn how to work with web APIs in Python
+- To learn [specific skill/concept] 
 
-- To solve the problem of sharing long and messy URLs
+- To solve [specific problem] 
 
-- Because I was curious about how URL shorteners work behind the scenes
+- Because I was curious about [topic] 
 ## Quick Start
 ```bash
 cd [project-folder]
-python URL-shortener.py
+python main.py
 ```
-
 ## Features
-- Shortens any valid URL using the Cutt.ly API
 
-- Automatically adds https:// if the user forgets it
+- [Main thing it does] 
 
-- Handles API errors and invalid responses gracefully
+- [Another cool feature] 
 
-## What I learned
-- How to send HTTP requests using the requests library
+- [Something useful] 
 
-- How to work with JSON responses from an API
+## What I learned 
 
-- Basic error handling and clean function structure
+- [Skill or concept practiced] 
 
-## Notes / Future Improvements
+- [Library or tool used] 
 
-- Add a .env file to hide the API key securely
+- [Challenge overcome] 
 
-- Create a GUI or web interface instead of using the terminal
+## Notes / Future Improvements 
 
-- Add ability to copy the shortened link automatically
+- Thing I might add later 
 
+- Note worth mentioning 
 
 ---
-
 *Built as part of my learning journey*
